@@ -1,0 +1,149 @@
+body{
+    background: #EFEFF2;
+    margin: 0;
+    color: #19191C;
+    font: 400 18px/28px Inter, sans-serif;
+}
+.container{
+    padding: 0 15px;
+    /* width: 1440px; */
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    padding: 36px 0 0;
+    justify-content: space-between;
+}
+.header__box{
+    display: flex;
+    align-items: center;
+    gap: 68px;
+}
+.nav__list{
+    display: flex;
+    list-style: none;
+    gap: 48px;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+}
+.link{
+    color:#19191C;
+    text-decoration: none;
+}
+.btn-box{
+    display: flex;
+    gap: 48px;
+    align-items: center;
+}
+.logo{
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #19191C;
+    text-decoration: none;
+}
+.header__link{
+    color: #19191C;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.header__btn{
+    background: #19191C;
+    color: #EFEFF2;
+    padding: 12px 37px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+}
+.offer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 0 230px;
+    background: url(../img/img01.png) 100% 100% no-repeat;
+}
+.offer__holder{
+    width: 648px;
+    background-image: url(../img/bg01.png) 100% 100% no-repeat;
+}
+.offer__title{
+    font-size: 58px;
+    line-height: 70px;
+    font-weight: 700;
+}
+.offer__list{
+    align-self: flex-end;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+.offer__item{
+    position: absolute;
+    border: 2px solid #19191C;
+    padding: 16px 36px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+}
+.offer__InVision{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.offer__ProtoPie{
+    top: -60px;
+    right: 220px;
+
+}
+.offer__Miro{
+    top: -30px;
+    left: 200px;
+}
+.offer__Photoshop{
+    top: 30px;
+    left: 150px;
+}
+.offer__Figma{
+    top: 60px;
+    left: 100px;
+}
+.offer__Illustrator{
+    top: 90px;
+    left: 50px;
+}
+@media screen and (max-width: 1439px) {
+    .learn__counter-item{
+        flex: 1 1 100%;
+    }
+    .learn__counters{
+        flex-wrap: wrap;
+    }
+    .learn-container{
+        flex-wrap: wrap;
+    }   
+    .learn__counter-number{
+        margin: 10px 0;
+    }
+    .learn__text{
+        width: auto;
+    }
+}
+.discover__list{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+.discover__cards{
+    display: flex;
+    gap: 8px;
+    justify-content: space-between;
+}
